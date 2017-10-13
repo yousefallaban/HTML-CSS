@@ -1,0 +1,312 @@
+/* rest all value to the defulte */
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5em;
+}
+
+
+/*------.menu-header------------*/
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.menu-header {
+    width: -webkit-fill-available;
+    position: fixed;
+    background: rgba(16, 16, 16, 0.72);
+    color: #ffffff;
+    padding-top: 25px;
+    min-height: 50px;
+}
+
+.menu-header ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+.menu-header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.menu-header #logo {
+    float: left;
+}
+
+.menu-header #logo h1 {
+    margin: 0px;
+}
+
+.menu-header nav {
+    float: right;
+}
+
+.menu-header .highlight,
+.menu-header a:hover {
+    font-weight: bold;
+}
+
+
+/*--------Show Case----------*/
+
+.ShowCase {
+    min-height: 635px;
+    background: url("https://images.freecreatives.com/wp-content/uploads/2015/03/Huge-Backgrounds-26.jpg") no-repeat 0;
+    background-size: 100% 100%;
+    padding-top: 0px
+}
+
+.ShowCase .container h1 {
+    text-align: center;
+    margin-top: 240px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.story {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1.5em;
+}
+
+
+/*--------End Show Case----------*/
+
+
+/*--------About section----------*/
+
+#about {
+    background: #2B2B2B;
+    width: 100%;
+    margin: auto;
+    padding-top: 100px;
+    overflow: hidden;
+}
+
+.col {
+    width: 30%;
+    height: 606px;
+    float: left;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+
+.col1 .profile-pic img {
+    position: inherit;
+    width: 318px;
+    height: 346px;
+    border-radius: 50%;
+}
+
+.icons {
+    margin: 20px;
+    padding: 0;
+}
+
+.icons-list {
+    list-style-type: none;
+    text-align: left;
+    display: inline;
+}
+
+.icons li i {
+    margin: 10px;
+    margin-right: 15px;
+}
+
+.icons li i:hover {
+    color: rgb(52, 154, 238);
+}
+
+@media only screen and (max-width:768px) {
+    .col1,
+    .col2 {
+        width: 50%;
+    }
+    .col3 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .col {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+/*--------End About section----------*/
+
+
+/*--------Resume section----------*/
+
+.resume,
+.experience,
+.skills,
+.language {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.rcol {
+    height: 250px;
+    float: left;
+    padding: 1rem;
+    color: black;
+}
+
+.rcol1 {
+    width: 30%;
+}
+
+.rcol1 h1 {
+    border-bottom: 5px solid rgb(52, 154, 238);
+    padding: 12px;
+    margin: 27px;
+    text-transform: uppercase;
+}
+
+.rcol2 {
+    width: 60%;
+    padding: 0;
+    margin: 15px;
+}
+
+.rcol2 p {
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+@media only screen and (max-width:768px) {
+    .rcol1 {
+        width: 30%;
+    }
+    .rcol2 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .rcol {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+/*-- Skills Area Experience!*/
+
+.skills-list {
+    list-style: none;
+    font-size: x-large;
+}
+
+
+/*-- References Area !*/
+
+.cta {
+    width: 120px;
+    height: 50px;
+    margin: 20px;
+    font-size: 20px;
+    box-shadow: 0 5px #030303;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.8s;
+}
+
+.cta a {
+    text-decoration: none;
+    color: black;
+}
+
+.cta:focus {
+    box-shadow: 0 0 #f74813;
+    transform: translateY(5px);
+}
+
+#references {
+    background: rgba(0, 0, 0, 0.83);
+    width: 100%;
+    margin: auto;
+    padding-top: 25px;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    max-height: 708px;
+}
+
+#references h1 {
+    color: white;
+}
+
+.row {
+    /* overflow: hidden;*/
+    margin: 0 auto;
+    width: 90%;
+}
+
+.col-3 {
+    float: left;
+    margin: 1%;
+    width: 31%;
+    padding: 0;
+    border: 1px solid #f2f2f2;
+    border-radius: 15px;
+}
+
+.col-left {
+    margin-left: 1%;
+}
+
+.tot-img {
+    border: 1px #666666 solid;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 292px;
+}
+
+.tot-header {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.fot {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
+#youtube {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.video {
+    width: 100%;
+    min-height: 550px;
+}
