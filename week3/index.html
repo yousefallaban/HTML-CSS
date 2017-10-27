@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Funda</title>
+</head>
+
+<body>
+    <!-- HEADER AREIA -->
+    <header class="header-container">
+        <div class="menu-container">
+            <nav class="nav-menu">
+                <a class="logo" href="#"><img src="images/fundawonen-logo.svg" alt="fundawonen-logo"></a>
+                <label for="show-menu" class="show-menu">menu</label>
+                <input type="checkbox" id="show-menu" role="button">
+
+                <ul id="menu" class="menu-item">
+                    <li class="list-item"><a href="#">Log in</a></li>
+                    <li class="list-item"><a href="#">Register</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+    <!-- MAIN AREIA -->
+    <main>
+        <!-- img AREIA -->
+        <div class="show-content">
+            <div class="w-content">
+                <span class="left a-left"><img src="images/herenhuis-links.svg" alt="herenhuis-links"></span>
+                <p class="p-middle">Within five minutes of Ms.<br> Rianne's class</p>
+                <span class="right"><img src="images/herenhuis-rechts.svg" alt="herenhuis-rechts"></span>
+            </div>
+        </div>
+        <!-- SEARCH AREIA -->
+        <div class="search-content">
+            <nav class="search-nav">
+                <ul class="search-nav-menu">
+                    <li class="search-nav-item"><a href="#">For sale</a></li>
+                    <li class="search-nav-item"><a href="#">For rent</a></li>
+                    <li class="search-nav-item"><a href="#">Newly built</a></li>
+                    <li class="search-nav-item"><a href="#">Recreation</a></li>
+                    <li class="search-nav-item"><a href="#">Europe</a></li>
+                </ul>
+            </nav>
+            <div>
+                <form action="">
+                    <div class="search">
+                        <input type="text" name="search" placeholder="City, address, etc..">
+                    </div>
+
+                    <div class="aria">
+                        <select name="aria">
+                              <option value="from">+0 KM</option>
+                              <option value="+5 KM">+5 KM</option>
+                              <option value="+10 KM">+10 KM</option>
+                            </select>
+                    </div>
+                    <div class="from-box">
+                        <select name="from-box">
+                                  <option value="from">FROM</option>
+                                  <option value="50000">€ 50,000</option>
+                                  <option value="75000">€ 75,000</option>
+                                  <option value="100000">€ 100,000</option>
+                                  <option value="125000">€ 125,000</option>
+                                  <option value="150000">€ 150,000</option>
+                                </select>
+                    </div>
+                    <div class="to-box">
+                        <select name="from-box">
+                                      <option value="TO">TO</option>
+                                      <option value="250000">€ 250,000</option>
+                                      <option value="275000">€ 275,000</option>
+                                      <option value="300000">€ 300,000</option>
+                                      <option value="325000">€ 325,000</option>
+                                      <option value="350000">€ 350,000</option>
+                        </select>
+                    </div>
+                    <div class="search-block__submit">
+                        <button type="submit">Search</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <div class="search-link">
+            <a href="#">&#707;  Search on the map</a>
+            <a href="#">&#707;  Find an NVM broker</a>
+        </div>
+        <div class="home-content">
+            <div>
+                <h2>Featured residential properties</h2>
+            </div>
+
+            <ul class="house-content">
+                <li class="house-item house-item1">
+                    <a href="#"><img class="house-img" src="images/img1.jpg" alt="image1"></a>
+                    <div class="house-street">
+                        <a href="#">Brinkweg 9</a>
+                    </div>
+                    <div class="house-postcode-city">8276 AH Zalk</div>
+                    <div class="house-price">€ 875,000 k.k. </div>
+                </li>
+                <li class="house-item house-item2">
+                    <a href="#"><img class="house-img" src="images/img2.jpg" alt="image2"></a>
+                    <div class="house-street">
+                        <a href="#">Rederserf 152</a>
+                    </div>
+                    <div class="house-postcode-city">2586 KE Den Haag</div>
+                    <div class="house-price">€ 950,000 k.k.</div>
+                </li>
+                <li class="house-item house-item3 ">
+                    <a href="#"><img class="house-img" src="images/img3.jpg" alt="image3"></a>
+                    <div class="house-street">
+                        <a href="#">Herwensedijk 3</a>
+                    </div>
+                    <div class="house-postcode-city">6914 KE Herwen</div>
+                    <div class="house-price">€ 596,900 k.k.</div>
+                </li>
+            </ul>
+
+            <aside class="home-banners">
+                <a href="#" class="fib-banner">
+                    <img alt="funda in business" src="images/fundainbusiness-logo.svg">
+                    <p>Find your retail, office, logistic or industrial property</p>
+                    <span class="button-left">Search in properties</span>
+                </a>
+                <a href="#" class="house-banner">
+                    <img alt="A 'for sale' sign" src="images/funda-listing-sign.svg">
+                    <p>Listing your house on funda?</p>
+                    <span class="button-right">Read how</span>
+                </a>
+            </aside>
+        </div>
+    </main>
+    <!-- FOOTER AREIA -->
+    <div class="clear"></div>
+    <footer>
+        <div class="clear"></div>
+        <div class="end-footer">
+            <p>© 2000 – 2017 funda - Powered by NVM</p>
+        </div>
+    </footer>
+</body>
+
+</html>
